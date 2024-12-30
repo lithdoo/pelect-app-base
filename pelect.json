@@ -3,7 +3,7 @@
     "resource": [
         {
             "type": "script",
-            "file-source": "./client/pelect-base.umd.cjs",
+            "file-source": "./client/pelect-base.umd.js",
             "attr": {}
         },
         {
