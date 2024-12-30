@@ -1,0 +1,24 @@
+{
+    "appKeyName": "pelect-base",
+    "resource": [
+        {
+            "type": "script",
+            "file-source": "./client/pelect-base.umd.cjs",
+            "attr": {}
+        },
+        {
+            "type": "link:style",
+            "file-source": "./client/pelect-base.css",
+            "attr": {}
+        }
+    ],
+    "cmd": {
+        "install": [
+            "npm install",
+            "npm run build"
+        ],
+        "start": [
+            "npm run serve"
+        ]
+    }
+}
